@@ -1,4 +1,7 @@
-x=sample(1:1000,50)
+x=rnorm(1000)
 
 mean(x)
-barplot(x)
+var(x)
+sd(x)
+
+hist(x)
